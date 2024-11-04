@@ -1,0 +1,24 @@
+abdelghani:
+  name: Abdelghani Bensalih
+  title: CS Student @ ENSA Marrakech
+  url: https://github.com/abdelghaniBensalih
+  image_url: https://github.com/abdelghaniBensalih.png
+  page: true
+  socials:
+    x: a_bensalih
+    linkedin: abdelghani-bensalih-469155219
+    github: abdelghanibensalih
+
+slorber:
+  name: Sébastien Lorber
+  title: Docusaurus Maintainer
+  url: https://sebastienlorber.com
+  image_url: https://github.com/slorber.png
+  page:
+    # Customize the URL of the author page at /blog/authors/<permalink>
+    permalink: '/all-sebastien-lorber-articles'
+  socials:
+    x: sebastienlorber
+    linkedin: sebastienlorber
+    github: slorber
+    newsletter: https://thisweekinreact.com
