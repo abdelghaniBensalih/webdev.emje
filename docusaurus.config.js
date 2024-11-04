@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'EMJE Dev Team',
+  title: 'Club EMJE',
   tagline: 'Code Learn Grow',
   favicon: 'img/favicon.ico',
 
