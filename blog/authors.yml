@@ -9,16 +9,14 @@ abdelghani:
     linkedin: abdelghani-bensalih-469155219
     github: abdelghanibensalih
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus Maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+Mouad:
+  name: Mouad Bourquouqou
+  title: EMJE Member
+  url: https://github.com/MouadBourquouquou
+  image_url: https://github.com/MouadBourquouquou.png
   page:
     # Customize the URL of the author page at /blog/authors/<permalink>
     permalink: '/all-sebastien-lorber-articles'
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    linkedin: mouad bourquouquou
+    github: BOURQUOUQUOU MOUAD

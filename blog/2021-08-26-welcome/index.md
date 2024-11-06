@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, abdelghani]
+authors: abdelghani
 tags: [facebook, hello, docusaurus]
 ---
 
