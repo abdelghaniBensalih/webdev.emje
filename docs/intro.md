@@ -1,4 +1,4 @@
-# 📅 EMJE Developer Team Schedule
+# 📅 Team Schedule
 
 Welcome to our **EMJE Developer Team** schedule! Our mission is to **learn**, **collaborate**, and **create impactful projects** together. This schedule blends learning, teamwork, coding, and client-ready preparations to keep us moving forward.
 
