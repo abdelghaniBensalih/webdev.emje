@@ -1,41 +1,24 @@
-# Website
+# 🌐 EMJE Developer Team Website Repository
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to the **EMJE Developer Team Website** repository! This repository contains the source code for our team’s website, where we share updates, showcase projects, and outline our weekly schedule.
 
-### Installation
+---
 
-```
-yarn
-```
+## 📖 About EMJE
 
-### Local Development
+**EMJE** stands for **ENSA Marrakech Junior Enterprise**. We are a team of student developers from the National School of Applied Sciences (ENSA) in Marrakech, committed to learning, collaboration, and delivering high-quality software solutions. As part of a junior enterprise, we engage in:
 
-```
-yarn start
-```
+- **Skill Development**: Continuously learning new technologies and honing our technical expertise.
+- **Teamwork**: Collaborating on impactful projects and tackling coding challenges together.
+- **Real-World Projects**: Developing solutions that address actual client needs, bringing real value to our community.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Our website serves as a central hub for our schedule, project updates, and team information, ensuring we stay aligned and connected.
 
-### Build
+---
 
-```
-yarn build
-```
+## Contact Information
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+For any inquiries regarding the website or event, feel free to reach out to me at:
 
-### Deployment
-
-Using SSH:
-
-```
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- **Email**: <ensamarrakechjuniorentreprise@gmail.com>
+- **LinkedIn**: [ENSA Marrakech Junior Entreprise](https://www.linkedin.com/company/em-je)
