@@ -7,7 +7,7 @@ tags: [Git]
 
 # Git Commands Summary
 
-Git is an essential tool for version control, allowing you to manage your project’s codebase efficiently. Below are some basic and essential Git commands to help you get started.
+ Git is an essential tool for version control, allowing you to manage your project’s codebase efficiently. Below are some basic and essential Git commands to help you get started.
 
 ## 1. Initialize a Git Repository
 
@@ -17,11 +17,9 @@ Git is an essential tool for version control, allowing you to manage your projec
 - **For a local project:**
   - Run `git init` to initialize a new Git repository in your project folder.
   - Run:
-    
-    git remote add origin https://github.com/MouadBourquouquou/test-repo.git
+    git remote add origin <https://github.com/MouadBourquouquou/test-repo.git>
     git branch -M main
     git push -u origin main
-    
 
 ## 2. Configure Git User Details
 
@@ -29,17 +27,11 @@ Git is an essential tool for version control, allowing you to manage your projec
   git config --list
 To set your user name:
 
-
-
 git config --global user.name "Your Name"
 To set your user email:
 
-
-
-git config --global user.email "youremail@example.com"
+git config --global user.email " <youremail@example.com>"
 To remove the current user name configuration:
-
-
 
 git config --global --unset-all user.name
 3. View Repository Status
@@ -49,12 +41,8 @@ Use git diff to see the differences between your working directory and the last 
 5. Stage Changes for Commit
 To stage a specific file:
 
-
-
 git add filename
 To stage all files:
-
-
 
 git add .  # or git add -A
 6. Create a Commit
@@ -70,8 +58,7 @@ If you get a warning like:
 lua
 
 warning: in the working copy of 'blog/authors.yml', LF will be replaced by CRLF the next time Git touches it,
-you can configure Git to automatically handle line endings with the following command:
-
+you can configure Git to automatically handle line endings with the following command
 
 git config --global core.autocrlf true
 Objectif des Branches dans Git
@@ -80,27 +67,18 @@ Les branches permettent de travailler sur différentes fonctionnalités ou parti
 Commandes Liées aux Branches
 Créer une nouvelle branche :
 
-
-
 git branch <nom_de_branche>
 Lister les branches locales :
-
-
 
 git branch
 Changer de branche :
 
-
-
 git switch <nom_de_branche>
 Créer une nouvelle branche et y basculer directement :
-
-
 
 git switch -c <nom_de_branche>
 Key Notes:
 git add stages changes, and git commit saves those changes in your local repository.
 git push uploads your local changes to the remote repository, and git pull downloads changes from the remote repository to your local machine.
 git status helps you track changes and see which files are staged, modified, or untracked.
-csharp
-
+csharp.
