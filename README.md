@@ -21,4 +21,4 @@ Our website serves as a central hub for our schedule, project updates, and team 
 For any inquiries regarding the website or event, feel free to reach out to me at:
 
 - **Email**: <ensamarrakechjuniorentreprise@gmail.com>
-- **LinkedIn**: [ENSA Marrakech Junior Entreprise](https://www.linkedin.com/company/em-je)
+- **LinkedIn**: [ENSA Marrakech Junior Entreprise](https://www.linkedin.com/company/em-je).
