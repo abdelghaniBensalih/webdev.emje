@@ -5,7 +5,8 @@ authors: Mouad
 tags: [Git]
 ---
 
-# Git Commands Summary
+
+Git Commands Summary
 
  Git is an essential tool for version control, allowing you to manage your project’s codebase efficiently. Below are some basic and essential Git commands to help you get started.
 
