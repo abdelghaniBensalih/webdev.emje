@@ -12,11 +12,11 @@ Git is an essential tool for version control, allowing you to manage your projec
 ## Initialize a Git Repository
 
 - **If the project was cloned from a platform like GitHub:**
-    - Use the command `git clone <repository-url>` to clone the repository.
+  - Use the command `git clone <repository-url>` to clone the repository.
 
 - **For a local project:**
-    - Run `git init` to initialize a new Git repository in your project folder.
-    - Run:
+  - Run `git init` to initialize a new Git repository in your project folder.
+  - Run:
 
         ```sh
         git remote add origin <https://github.com/MouadBourquouquou/test-repo.git>
