@@ -1,9 +1,10 @@
 ---
-slug: git Commands Part 1
+slug: git-Commands-Part 1
 title: git Commands Part 1
 authors: Mouad
 tags: [git, github]
 ---
+![git logo](git-commands-part1.png)
 
 # git Commands Part 1
 
