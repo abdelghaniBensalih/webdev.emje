@@ -17,38 +17,36 @@ Git is an essential tool for version control, allowing you to manage your projec
 - **For a local project:**
   - Run `git init` to initialize a new Git repository in your project folder.
   - Run:
-
-        ```sh
         git remote add origin <https://github.com/MouadBourquouquou/test-repo.git>
         git branch -M main
         git push -u origin main
-        ```
+        
 
 ## Configure Git User Details
 
 - **To view your current configuration:**
 
-    ```sh
+    
     git config --list
-    ```
+    
 
 - **To set your user name:**
 
-    ```sh
+    
     git config --global user.name "Your Name"
-    ```
+    
 
 - **To set your user email:**
 
-    ```sh
+    
     git config --global user.email "youremail@example.com"
-    ```
+    
 
 - **To remove the current user name configuration:**
 
-    ```sh
+    
     git config --global --unset-all user.name
-    ```
+    
 
 ## View Repository Status
 
@@ -62,15 +60,15 @@ Use `git diff` to see the differences between your working directory and the las
 
 - **To stage a specific file:**
 
-    ```sh
+    
     git add filename
-    ```
+    
 
 - **To stage all files:**
 
-    ```sh
+    
     git add .  # or git add -A
-    ```
+    
 
 ## Create a Commit
 
@@ -92,15 +90,15 @@ Use `git pull origin main` to fetch and merge changes from the main branch of th
 
 If you get a warning like:
 
-```
+
 warning: in the working copy of 'blog/authors.yml', LF will be replaced by CRLF the next time Git touches it,
-```
+
 
 you can configure Git to automatically handle line endings with the following command:
 
-```sh
+
 git config --global core.autocrlf true
-```
+
 
 ## Objectif des Branches dans Git
 
@@ -110,27 +108,21 @@ Branches allow you to work on different features or parts of a project independe
 
 - **Créer une nouvelle branche :**
 
-    ```sh
+    
     git branch <nom_de_branche>
-    ```
+    
 
 - **Lister les branches locales :**
 
-    ```sh
     git branch
-    ```
-
+    
 - **Changer de branche :**
 
-    ```sh
     git switch <nom_de_branche>
-    ```
 
 - **Créer une nouvelle branche et y basculer directement :**
 
-    ```sh
     git switch -c <nom_de_branche>
-    ```
 
 ## Key Notes
 
