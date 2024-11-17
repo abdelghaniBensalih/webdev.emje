@@ -1,5 +1,5 @@
 ---
-slug: git-Commands-Part 1
+slug: git-Commands-Part-1
 title: git Commands Part 1
 authors: Mouad
 tags: [git, github]
