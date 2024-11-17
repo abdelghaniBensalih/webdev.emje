@@ -5,9 +5,9 @@ authors: Mouad
 tags: [git, github]
 ---
 
-# Git Commands Part 1
+# git Commands Part 1
 
-Git is an essential tool for version control, allowing you to manage your project’s codebase efficiently. Below are some basic and essential Git commands to help you get started.
+git is an essential tool for version control, allowing you to manage your project’s codebase efficiently. Below are some basic and essential git commands to help you get started.
 
 ## Initialize a Git Repository
 
