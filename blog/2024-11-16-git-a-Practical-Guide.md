@@ -10,6 +10,8 @@ tags: [git, github]
 
 git is an essential tool for version control, allowing you to manage your project’s codebase efficiently. Below are some basic and essential git commands to help you get started.
 
+<!-- truncate -->
+
 ## Initialize a Git Repository
 
 - **If the project was cloned from a platform like GitHub:**
@@ -121,6 +123,44 @@ Branches allow you to work on different features or parts of a project independe
     ```sh
     git switch -c <nom_de_branche>
     ```
+# Difference Between Git Staging Commands
+
+The commands `git add .`, `git add --all`, and `git add *` are used to stage changes in Git, but they have some subtle differences. Let's break down what each one does:
+
+## 1. `git add .`
+- **What it does**: Stages all changes (new files, modified files, deleted files) in the **current directory** and its subdirectories.
+- **How it works**: 
+  - Adds all tracked and untracked files (except ignored ones) within the current directory and its subdirectories.
+  - **Does not stage deleted files** that were removed using non-Git commands (like `rm`).
+- **Use case**: Useful when you want to stage everything within your current directory but don't want to include deletions.
+
+## 2. `git add --all` (or `git add -A`)
+- **What it does**: Stages all changes (new, modified, and deleted files) in the **entire repository**, regardless of the current directory.
+- **How it works**: 
+  - Equivalent to running `git add .` followed by `git add -u`.
+  - Stages all tracked and untracked files, **including deleted files** that were removed manually.
+- **Use case**: Ideal when you want to stage absolutely everything in your repository, including file deletions.
+
+## 3. `git add *`
+- **What it does**: Stages changes to all files in the current directory that match the shell's glob pattern (`*`).
+- **How it works**: 
+  - Relies on your shell to expand the `*` wildcard, so it only adds files in the current directory (not subdirectories).
+  - Stages changes only for files, not directories, and skips hidden files (those starting with a dot, like `.gitignore`).
+- **Use case**: Useful if you want to quickly add all non-hidden files in the current directory, but not subdirectories.
+
+## Summary of Differences
+
+| Command           | New Files | Modified Files | Deleted Files | Hidden Files | Recursively Adds Subdirectories |
+|-------------------|:---------:|:--------------:|:-------------:|:------------:|:------------------------------:|
+| `git add .`       | ✅        | ✅             | ❌            | ✅           | ✅                             |
+| `git add --all`   | ✅        | ✅             | ✅            | ✅           | ✅                             |
+| `git add *`       | ✅        | ✅             | ❌            | ❌           | ❌                             |
+
+## When to Use Each Command
+- **`git add .`**: Use when you want to stage all changes in the current directory and subdirectories, excluding deletions.
+- **`git add --all`**: Use when you want to stage all changes in the entire repository, including deletions.
+- **`git add *`**: Use when you only want to stage non-hidden files in the current directory (not recursively).
+
 
 ## Key Notes
 
