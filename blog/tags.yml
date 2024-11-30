@@ -24,11 +24,16 @@ web:
   description: The process of building and maintaining websites, focusing on functionality, user experience, and performance across devices.
 
 git:
-  label: git
-  permalink: /git 
-  description: ligne de commande pour travailler avec les autres 
+  label: Git
+  permalink: /git
+  description: A version control system for tracking changes in source code during software development.
 
 github:
-  label: github
+  label: GitHub
   permalink: /github
-  description: github tag description
+  description: A platform for version control and collaborative software development using Git.
+
+javascript:
+  label: JavaScript
+  permalink: /javascript
+  description: A dynamic programming language commonly used in web development to create interactive effects within web browsers.

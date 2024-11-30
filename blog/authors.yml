@@ -18,7 +18,21 @@ Mouad:
     # Customize the URL of the author page at /blog/authors/<permalink>
     permalink: '/all-sebastien-lorber-articles'
   socials:
-    linkedin: mouad bourquouquou
-    github: BOURQUOUQUOU MOUAD
+    linkedin: mouad-bourquouquou-94714b266
+    github: MouadBourquouquou
+
+
+Saad:
+  name: Ait Abd Saad Eddine
+  title: EMJE Member
+  url: https://github.com/Saadon20
+  image_url: https://media.licdn.com/dms/image/v2/D4E03AQFducB11YtokQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732010032993?e=1738195200&v=beta&t=0EflgcwVadYaPVIY_WNO28AAlTng1TgvGJU3IOGjgpI
+  page:
+    # Customize the URL of the author page at /blog/authors/<permalink>
+    permalink: '/all-Saad-articles'
+  socials:
+    linkedin: ait-abd-saad-eddine
+    github: Saadon20
+    
 
   
