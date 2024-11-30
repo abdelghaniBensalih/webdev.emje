@@ -20,8 +20,7 @@ JavaScript powers the dynamic behavior on most websites you visit daily. By lear
 - Build dynamic web applications.
 - Understand the foundational language for frameworks like React, Angular, and Vue.
 
-> *Brendan Eich (Creator of JavaScript):* JavaScript is the only programming language that I know of that has a mental health problem.
-
+> * Douglas Crockford:* JavaScript is the most misunderstood language in the world, but it’s also the most used.
 ---
 
 ### JavaScript Basics
