@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Club EMJE',
   tagline: 'Code Learn Grow',
-  favicon: 'img/favicon.ico',
+  favicon: './img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -53,10 +53,7 @@ const config = {
             xslt: true,
           },
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/abdelghaniBensalih/webdev.emje/tree/master',
-          // Useful options to enforce blogging best practices
+          
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
