@@ -5,7 +5,7 @@ authors: Saad
 tags: [javascript]
 ---
 
-![JavaScript logo](img/intro-to-javascript.png)
+![JavaScript](img/intro-to-javascript.png)
 
 # JavaScript Tutorial Part 1
 
